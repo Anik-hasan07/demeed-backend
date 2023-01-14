@@ -13,15 +13,17 @@ cd <directory>
 cd ..
 ls
 ls -a
-
+###------------------------------------------------------------------------------
 git add .
 $ git commit -m <commit msg>
 
+#merge
 $ git fetch
 $ git rebase origin/develop
 
 $ git push --force-with-lease origin <your branch>
-
+####-----------------------------------------------------------------------------
+#merge
 $ git pull --rebase origin develop
 
 $ git fetch
